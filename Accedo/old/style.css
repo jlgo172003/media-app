@@ -1,0 +1,56 @@
+body {
+	margin: 10px;
+}
+#vid-slider {
+	position:relative;
+}
+
+.video-set {
+	float:left;
+	cursor:pointer;
+}
+
+.video-set h3 {
+	text-align: center;
+}
+
+.clearfix {
+	clear:both;
+}
+
+#vid-wrapper {
+	width: 90%;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+
+video[poster]{
+	height: 250px;
+	width: 100%;
+}
+
+.bg0 {
+	background-color: #e1e1e1;
+}
+
+.bg1 {
+	background-color: #BFEFFF;
+}
+
+video.selected {
+	background-color: lime;
+}
+
+.arrows {
+	font-size: 3em;
+	position: absolute;
+	margin-top: 85px;
+	background-color: white;
+	z-index: 100;
+	cursor: pointer;
+}
+
+.right-arrow {
+	right:10px;
+}
+
